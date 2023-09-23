@@ -4,15 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="18dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/imageViewYardSaleLogo"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:src="@drawable/logo_yard_sale"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonGetInto"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:backgroundTint="@color/yard_hospital_green"
+        app:layout_constraintTop_toBottomOf="@id/imageViewYardSaleLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/yard_get_into"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="8dp"
+        android:textAllCaps="false"
+        android:textColor="@color/yard_white"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

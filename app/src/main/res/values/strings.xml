@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">YardSale</string>
+    <string name="yard_get_into">Get into</string>
 </resources>
