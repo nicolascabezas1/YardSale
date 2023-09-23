@@ -3,7 +3,75 @@
     <style name="Base.Theme.YardSale" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/yard_white</item>
     </style>
 
     <style name="Theme.YardSale" parent="Base.Theme.YardSale" />
+
+    <style name="yard_ic_big_logo_yard_sale">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/logo_yard_sale</item>
+        <item name="android:contentDescription">@string/yard_sale_logo_main</item>
+    </style>
+
+    <style name="yard_text_sub_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="yard_text_input_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="yard_email_text_input_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">example@mail.com</item>
+        <item name="android:importantForAccessibility">yes</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:textColor">@color/yard_black</item>
+    </style>
+
+    <style name="yard_password_text_input_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Password</item>
+        <item name="android:importantForAccessibility">yes</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textColor">@color/yard_black</item>
+    </style>
+
+    <style name="yard_main_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">68dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/yard_white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="yard_second_button">
+        <item name="android:textColor">@color/yard_hospital_green</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">68dp</item>
+        <item name="android:background">@drawable/custom_button_background</item>
+    </style>
+
+    <style name="yard_link_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textColor">@color/yard_hospital_green</item>
+    </style>
+
 </resources>

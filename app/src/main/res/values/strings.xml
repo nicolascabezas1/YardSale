@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">YardSale</string>
     <string name="yard_get_into">Get into</string>
+    <string name="yard_email_address">Email address</string>
+    <string name="yard_sale_logo_main">Yard sale Logo main</string>
+    <string name="yard_password">Password</string>
+    <string name="yard_log_in">Log in</string>
+    <string name="yard_forgot_my_password">Forgot my password</string>
+    <string name="yard_sign_up">Sign Up</string>
 </resources>
