@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@id/textViewEmail">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editTextEmailUser"
+            android:id="@+id/textInputEditEmail"
             style="@style/yard_email_text_input_edit_text"
             tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
 
@@ -58,6 +58,7 @@
         app:layout_constraintTop_toBottomOf="@id/textViewPassword">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditPassword"
             style="@style/yard_password_text_input_edit_text"
             tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck,VisualLintTextFieldSize" />
 
@@ -86,7 +87,7 @@
         tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/customButton"
+        android:id="@+id/buttonSecondSignUp"
         style="@style/yard_second_button"
         android:text="@string/yard_sign_up"
         app:layout_constraintBottom_toBottomOf="parent"

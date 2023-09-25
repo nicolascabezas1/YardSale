@@ -7,4 +7,8 @@
     <string name="yard_log_in">Log in</string>
     <string name="yard_forgot_my_password">Forgot my password</string>
     <string name="yard_sign_up">Sign Up</string>
+    <string name="yard_password_recovery">Password Recovery</string>
+    <string name="yard_description_password_recovery">Inform the email address used to create your account</string>
+    <string name="yard_submit">Submit</string>
+    <string name="yard_back_to_log_in">Back to log in</string>
 </resources>
