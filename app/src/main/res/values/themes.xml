@@ -60,6 +60,15 @@
         <item name="android:textColor">@color/yard_black</item>
     </style>
 
+    <style name="yard_password_new_text_input_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Create a new password</item>
+        <item name="android:importantForAccessibility">yes</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textColor">@color/yard_black</item>
+    </style>
+
     <style name="yard_main_button">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">68dp</item>
