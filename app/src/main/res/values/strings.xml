@@ -11,4 +11,7 @@
     <string name="yard_description_password_recovery">Inform the email address used to create your account</string>
     <string name="yard_submit">Submit</string>
     <string name="yard_back_to_log_in">Back to log in</string>
+    <string name="yard_email_has_been_sent">Email has been sent</string>
+    <string name="yard_please_check_your_inbox_for_instructions_on_how_to_reset_the_password">Please check your inbox for instructions on how to reset the password</string>
+    <string name="yard_didn_t_receive_the_email_resend">Didn’t receive the email? Resend</string>
 </resources>

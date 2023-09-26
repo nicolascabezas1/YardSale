@@ -2,7 +2,7 @@
 <resources>
     <color name="yard_black">#FF000000</color>
     <color name="yard_white">#FFFFFFFF</color>
-    <color name="yard_very_light_pink">#C7C7C7</color>
+    <color name="yard_very_light_pink">#A0A0A0</color>
     <color name="yard_text_input_field">#F7F7F7</color>
     <color name="yard_hospital_green">#56B742</color>
 </resources>

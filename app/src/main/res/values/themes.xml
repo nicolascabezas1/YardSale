@@ -88,4 +88,10 @@
         <item name="android:textColor">@color/yard_hospital_green</item>
     </style>
 
+    <style name="yard_mail_logo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/mail_send</item>
+    </style>
+
 </resources>

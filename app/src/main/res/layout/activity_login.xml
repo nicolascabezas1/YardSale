@@ -24,7 +24,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageViewYardSaleLogo" />
+        app:layout_constraintTop_toBottomOf="@id/imageViewYardSaleLogo"
+        tools:ignore="TextSizeCheck" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutEmail"
@@ -48,7 +49,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textInputLayoutEmail" />
+        app:layout_constraintTop_toBottomOf="@id/textInputLayoutEmail"
+        tools:ignore="TextSizeCheck" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutPassword"
