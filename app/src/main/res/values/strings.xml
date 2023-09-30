@@ -17,4 +17,8 @@
     <string name="yard_create_a_new_password">Create a new password</string>
     <string name="yard_enter_a_new_password_for_your_account">Enter a new password for your account</string>
     <string name="yard_confirm">Confirm</string>
+    <string name="my_account">My Account</string>
+    <string name="yard_nicolas_cabezas">Nicolas Cabezas</string>
+    <string name="yard_name">Name</string>
+    <string name="yard_create">Create</string>
 </resources>

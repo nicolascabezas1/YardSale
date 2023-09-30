@@ -45,7 +45,7 @@
     <style name="yard_email_text_input_edit_text">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:hint">example@mail.com</item>
+        <item name="android:hint">Email Address</item>
         <item name="android:importantForAccessibility">yes</item>
         <item name="android:inputType">textEmailAddress</item>
         <item name="android:textColor">@color/yard_black</item>
